@@ -1,6 +1,12 @@
 <!DOCTYPE HTML>
 <script src="https://unpkg.com/globe.gl@2.28.4/dist/globe.gl.min.js" crossorigin></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
 <!--
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
@@ -36,7 +42,7 @@
 					</header>
 				<div id="globeWrapper">
 					
-				<div id="globeViz"></div>
+				<div id="map"></div>
 				<div id="globeOffset">
 					<h1 id="welcome">Welcome</h1>
 					This website aims to delve into the carbon offsetting initiatives of Shell, one of the world's largest energy companies, and critically examine the claims made by the company regarding its offsetting practices. While Shell presents itself as a responsible actor in addressing climate change through carbon offsetting, there are questions and concerns that deserve a closer look.
@@ -144,8 +150,34 @@
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/china.jpg" class="image"><img src="images/fulls/china.jpg" alt="" /></a>
-							<h2>Hunan Afforestation Project</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<h2>Hunan Northern and Northwestern Area Afforestation Project</h2>
+							<p>
+								Start of crediting period: 15/05/2017<br>
+								End of crediting period: 14/05/2057
+
+								<br><br>Located in the Hunan province of China, the project covers an area of 41,318 ha and 37 townships. The local environment is strongly influenced by the migration of the Yangtze River and is prone to land degradation from flooding. Mountains and hills occupy the remaining 80% of the land. 
+
+								<br><br>The project looks to generate GHG emission removals and improve the local environment by planting trees on barren land to help establish a forest of native trees. Shell declares they are responsible for 227,728 carbon credits per year within this project, generating the removal of 5,736,902 tCO2e in the first crediting period of 20 years. 
+								
+								<br><br>However, the images below find that many of the project’s carbon credits are situated on historic floodplains that are ill-suited for forestry growth. This is further in conflict with the project’s environmental management plan that states “the forbidden areas for new plantation establishment and existing plantation improvement include areas less than 50m from the main river banks and 20m from the subsidiary river banks” (World Bank, 2023). As seen in the imagery below, this is wholly disregard for the Hunan project. In addition to the fact that Hunan is subject to widescale ice storms, such as the one in 2008 that destroyed 4.5 million hectares (35%) of forest area (World Bank, 2023), the land selected for the project does not display the permanence needed for successful carbon sequestration. 
+								<span id="imageGrid">
+									<img id="articleImg" src="images/article/hunan1.jpg">
+									<img id="articleImg"  src="images/article/hunan2.jpg">
+									<img id="articleImg"  src="images/article/hunan3.jpg">
+									<img id="articleImg"  src="images/article/hunan4.jpg">
+								</span>
+								<br>
+								<br>Images taken from Google Earth pro, series of photos taken of a section of the project area located adjacent to a river. From top left to bottom right, Jul 2013, Aug 2015, Sep 2019 and Sep 2021.
+
+
+								<br><br>Additionally, findings show evidence of deforestation within the project area only a few years prior to the start of the crediting period in 2017. Considering the Verra Verification Standards declare the land must be barren at least 50 years prior to afforestation (VCS, 2023), the Hunan project conflicts with these standards. Moreover, further evidence was uncovered of the construction of buildings and roads within the project area.
+								<div id="imageGrid">
+									<img id="articleImg" src="images/article/hunangrid.png">
+								</div>
+								<br>Comparison of images taken from Google Earth pro of landscape between Dec 2014 (top left) and Nov 2022 (bottom left). Evidence of deforestation within the project area. View of building within project area between Apr 2015 (top right) and Apr 2022 (bottom right). 
+								<iframe src="https://josh-redmond.users.earthengine.app/view/hunansplitpanel"></iframe>
+
+							</p>
 						</article>
 
 						<article class="thumb">

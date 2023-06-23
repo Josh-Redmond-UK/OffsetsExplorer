@@ -1627,7 +1627,7 @@ input, select, textarea {
 			pointer-events: auto;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			opacity: 1;
-			overflow-y:scroll;
+			overflow-y:hidden;
 			position: relative;
 		}
 
@@ -2093,7 +2093,7 @@ input, select, textarea {
 	display:grid;
 	width:100%;
 	grid-template-columns: 1fr 1fr;
-	height:825px;
+	height:500px;
 }
 
 #welcome{
@@ -2122,6 +2122,11 @@ padding-top:1%;
 	height:100px
 }
 
+#map{
+	height:100%;
+
+}
+
 body{
 
 	background-color: white;
@@ -2132,4 +2137,19 @@ iframe{
 	height:100%;
 	display:block;
 	margin:auto;
+}
+
+#articleImage{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+
+}
+
+#imageGrid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+
 }
