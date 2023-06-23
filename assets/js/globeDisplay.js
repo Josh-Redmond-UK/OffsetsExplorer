@@ -13,7 +13,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-fetch('../PointsLatLon.csv').then(response => response.text())
+fetch('https://raw.githubusercontent.com/Josh-Redmond-UK/OffsetsExplorer/main/assets/PointsLatLon.csv').then(response => response.text())
 
   .then((data) => {
      var projectCSV = Papa.parse(data, {header:true});
