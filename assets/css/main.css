@@ -235,7 +235,7 @@ input, select, textarea {
 	}
 
 	p {
-		color:red;
+		
 		margin: 0 0 2em 0;
 	}
 
@@ -2107,7 +2107,7 @@ input, select, textarea {
 	display: flex;
 	height:100%;
 	overflow-y:scroll;
-	color:red;
+	
 }
 #pageHead{
 background-color:#F0B705;
