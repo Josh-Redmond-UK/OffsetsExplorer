@@ -2143,6 +2143,7 @@ iframe{
     max-width: 100%;
     max-height: 100%;
     display: block;
+	margin:auto;
 
 }
 
@@ -2151,7 +2152,7 @@ iframe{
 	grid-template-columns: repeat(2, 1fr);
 	grid-column-gap: 25px;
 	grid-row-gap: 25px;
-	margin: 0 auto;
+	margin: auto;
 
 
 }
